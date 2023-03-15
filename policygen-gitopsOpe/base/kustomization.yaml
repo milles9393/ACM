@@ -1,0 +1,11 @@
+generators:
+  - policy-generator-config.yaml
+commonAnnotations:
+  argocd.argoprojc.io/compare-options: IgnoreExtraneous
+
+
+
+#TODO
+
+## add argo instance
+## 

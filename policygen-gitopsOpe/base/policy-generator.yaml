@@ -2,14 +2,14 @@
 apiVersion: policy.open-cluster-management.io/v1
 kind: PolicyGenerator
 metadata:
-  name: install-compliance-operator
+  name: install-gitops-operator
 policyDefaults:
   namespace: policies
   placement:
     clusterSelectors:
-      environment: "lab2"
-  remediationAction: enforce
+      vendor: "OpenShift"
+  remediationAction: inform
 policies:
-  - name: install-compliance-operator
+  - name: install-gitops-operator
     manifests:
-    - path: compliance-operator.yaml
+    - path: gitops-operator.yaml
