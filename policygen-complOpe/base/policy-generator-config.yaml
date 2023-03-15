@@ -7,7 +7,7 @@ policyDefaults:
   namespace: policies
   placement:
     clusterSelectors:
-      environment: "none"
+      environment: "hub"
   remediationAction: enforce
 policies:
   - name: install-compliance-operator
