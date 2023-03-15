@@ -1,7 +1,7 @@
 generators:
   - policy-generator.yaml
 commonAnnotations:
-  argocd.argoprojc.io/compare-options: IgnoreExtraneous
+  argocd.argoproj.io/compare-options: IgnoreExtraneous
 
 
 
