@@ -6,6 +6,7 @@ metadata:
 policyDefaults:
   namespace: policies
   placement:
+## to which cluster policy should apply to
     clusterSelectors:
       environment: "hub"
   remediationAction: enforce
