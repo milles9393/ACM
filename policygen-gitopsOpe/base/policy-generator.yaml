@@ -8,7 +8,7 @@ policyDefaults:
   placement:
     clusterSelectors:
       environment: "lab"
-  remediationAction: inform
+  remediationAction: enforce
 policies:
   - name: install-gitops-operator
     manifests:
