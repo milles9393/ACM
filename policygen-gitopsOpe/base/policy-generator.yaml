@@ -7,7 +7,7 @@ policyDefaults:
   namespace: policies
   placement:
     clusterSelectors:
-      vendor: "OpenShift"
+      environment: "lab"
   remediationAction: inform
 policies:
   - name: install-gitops-operator

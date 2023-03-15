@@ -5,15 +5,14 @@ metadata:
   name: OpenShift-gitops-operator
   namespace: openshift-operators
 spec:
-  channel: gitops-1.7
-#  config:
-#    env:
-#    - name: ARGOCD_CLUSTER_CONFIG_NAMESPACES
-#      value: plattform-gitops
-#    - name: CONTROLLER_CLUSTER_ROLE
-#      value: gitops-controller
-#    - name: SERVER_CLUSTER_ROLE
-#      value: `true`
+  channel: latest
+  config:
+    env:
+      - name: DISABLE_DEFAULT_ARGOCD_INSTANCE
+        value: 'true'
+      - name: ARGOCD_CLUSTER_CONFIG_NAMESPACES
+        value: plattform-gitops
+  installPlanApproval: Automatic
   name: openshift-gitops-operator
   source: redhat-operators
   sourceNamespace: openshift-marketplace

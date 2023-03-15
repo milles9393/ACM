@@ -24,5 +24,7 @@ spec:
   sourceNamespace: openshift-marketplace
 
 
-  #use argocd applicaton instead of applicatonset
-  #only deploy policies to hub cluster
+# TODO
+# use argocd applicaton instead of applicatonset
+# only deploy policies to hub cluster
+# put placement in GIT
