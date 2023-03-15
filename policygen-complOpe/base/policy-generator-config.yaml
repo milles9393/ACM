@@ -7,7 +7,7 @@ policyDefaults:
   namespace: policies
   placement:
     clusterSelectors:
-      environment: "lab2"
+      environment: "lab"
   remediationAction: enforce
 policies:
   - name: install-compliance-operator
