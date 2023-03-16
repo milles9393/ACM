@@ -7,7 +7,7 @@ policyDefaults:
   namespace: policies
   placement:
     clusterSelectors:
-      environment: "lab"
+      environment: "lab2"
   remediationAction: enforce
 policies:
   - name: install-gitops-operator
